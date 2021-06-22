@@ -12,7 +12,7 @@
 
 ## 🎯 Objective
 
-Develop a feedback system for the work environment.
+Develop a feedback system for the work environment. Based on the NLW/Together from [Rocketseat](https://rocketseat.com.br/).
 
 <!-- ## 🤓 Typescript 101 -->
 
