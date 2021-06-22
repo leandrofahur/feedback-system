@@ -14,7 +14,7 @@
 
 Develop a feedback system for the work environment.
 
-## 🤓 Typescript 101
+<!-- ## 🤓 Typescript 101 -->
 
 ## 📝 License
 
