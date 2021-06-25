@@ -4,10 +4,10 @@ import {
   Entity,
   PrimaryColumn,
   UpdateDateColumn,
-} from "typeorm";
-import { v4 as uuid } from "uuid";
+} from 'typeorm';
+import { v4 as uuid } from 'uuid';
 
-@Entity("users")
+@Entity('users')
 class User {
   @PrimaryColumn()
   readonly id: string;
@@ -17,6 +17,9 @@ class User {
 
   @Column()
   email: string;
+
+  @Column()
+  password: string;
 
   @Column()
   admin: boolean;
