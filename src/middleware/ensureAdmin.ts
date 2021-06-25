@@ -1,4 +1,4 @@
-import { Request, Response, NextFunction } from "express";
+import { Request, Response, NextFunction } from 'express';
 
 export function ensureAdmin(
   request: Request,
@@ -13,6 +13,6 @@ export function ensureAdmin(
   }
 
   return response.status(401).json({
-    message: "Unautorized user",
+    message: 'Unauthorized user',
   });
 }
