@@ -26,7 +26,6 @@ class AuthenticateUserService {
       throw new Error('Incorrect credentials');
     }
 
-    console.log('here as well');
     const payload = {
       email: user.email,
     };
@@ -35,8 +34,6 @@ class AuthenticateUserService {
       subject: user.id,
       expiresIn: '1d',
     });
-
-    console.log(token);
 
     return token;
   }
